@@ -1,0 +1,8 @@
+Sirve para empezar una transacción. Los cambios que hagas después no se guardan todavía, se quedan en espera
+
+Los cambios se guardaron
+
+el cambio se cancelo
+
+
+commit guarda y rollback los cancela y va de regreso, como si nada pasara
