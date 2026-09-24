@@ -1,0 +1,29 @@
+SELECT id_estudiante, telefono
+FROM estudiantes
+WHERE id_estudiante = 1;
+
+
+
+BEGIN;
+
+
+
+
+UPDATE estudiantes
+SET telefono = '6129999999'
+WHERE id_estudiante = 1;
+
+
+
+SELECT id_estudiante, telefono
+FROM estudiantes
+WHERE id_estudiante = 1;
+
+
+COMMIT;
+
+
+
+SELECT id_estudiante, telefono
+FROM estudiantes
+WHERE id_estudiante = 1;
