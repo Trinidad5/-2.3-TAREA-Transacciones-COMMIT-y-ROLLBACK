@@ -1,0 +1,24 @@
+BEGIN;
+
+
+
+
+UPDATE estudiantes
+SET estado = 'INACTIVO'
+WHERE id_estudiante = 2;
+
+
+
+
+SELECT id_estudiante, estado
+FROM estudiantes
+WHERE id_estudiante = 2;
+
+
+
+
+ROLLBACK;
+
+SELECT id_estudiante, estado
+FROM estudiantes
+WHERE id_estudiante = 2;
